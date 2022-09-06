@@ -9,13 +9,11 @@ The file must contain -
 - default_price_cents
 - eans
 
-To run the file, make sure to be in the directory:
-
-`data-management`
+The test files are provided in the data folder
 
 To execute -
 
-`python3 tools/wholeseller_inventory_import/product_matching/main.py --supplier_inventory_file`
+`python3 main.py --supplier_inventory_file`
 
 - supplier_inventory_file: input the path of any supplier inventory file
 
